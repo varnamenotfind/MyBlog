@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章添加</title>
+    <style>
+        form {
+            width: 120px;
+            margin: 100px 250px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="back_intsave.php" method="post">
+        <h2 >文章题目</h2>
+        <!-- // 注意input属性的书写循序,要先下value,再写name,不然传不到后台 -->
+        <input type="text" value="" name="titles">   <!-- value不要网-->
+        <h2>文章内容</h2>
+        <textarea name="text_content" id="" cols="30" rows="10"></textarea>
+        <input type="submit" name="sut" id="">
+    </form>
+    <a class="zou" href="behind.html">返回</a>
+</body>
+</html>

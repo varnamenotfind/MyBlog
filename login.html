@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天梦の小窝</title>
+    <link rel="stylesheet" href="css/home-style.css">
+</head>
+<body>
+    <div class="enter">
+        <div class="form sign-in">
+            <h2>欢迎回来</h2>
+            <form action="islogin.php" method="post">
+                <label>
+                    <span>邮箱</span>
+                    <input type="email" class="email" name="email"/>
+                </label>
+                <label>
+                    <span>密码</span>
+                    <input type="password" class="psd" name="password"/>
+                </label>
+                <p class="forgot-pass"><a href="javascript:">忘记密码？</a></p>
+                <input type="submit" class="submit" value="登录">
+            </form>
+        </div>
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img__text m--up">
+                    <h2>还未注册？</h2>
+                    <p>立即注册，加入我吧！</p>
+                </div>
+                <div class="img__text m--in">
+                    <h2>已有帐号？</h2>
+                    <p>有帐号就登录吧，好久不见了！</p>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">注 册</span>
+                    <span class="m--in">登 录</span>
+                </div>
+            </div>
+            <div class="form sign-up">
+                <h2>立即注册</h2>
+                <form action="registered.php" method="post">
+                    <label>
+                        <span>昵称</span>
+                        <input type="text" name="username" class="username"/>
+                    </label>
+                    <label>
+                        <span>邮箱</span>
+                        <input type="email" class="email" name="email"/>
+                    </label>
+                    <label>
+                        <span>密码</span>
+                        <input type="password" class="psd" name="psd"/>
+                    </label>
+                    <input type="submit" class="submit" value="注 册">
+                </form>
+            </div>
+        </div>
+    </div>    
+</body>
+<script src="js/script.js"></script>
+<script>
+
+</script>
+</html>

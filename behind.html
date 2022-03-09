@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单后台系统</title>
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+        .header {
+            width: 300px;
+            margin: 25px auto;
+            font-size: 50px;
+        }
+        .one {
+            display: flex;
+        }
+        h4 {
+            width: 100px;margin: 20px auto;
+            font-size: 40px;
+        }
+        .one,
+        .two {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+        }
+        .one a,
+        .two a {
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: rgb(35, 139, 139);
+            text-align: center;
+            color: black;
+            line-height: 50px;
+            font-size: 20px;
+        }
+        a:hover {
+            background-color: orange;
+            color: white;
+        }
+        .one a {
+            margin-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header">简易の后台</h1>
+    <h4>文章</h4>
+    <div class="one">
+        <div><a href="back_int.html">增</a></div>
+        <div><a href="behind_del.php">删</a></div>
+        <div><a href="behind_update.php">改</a></div>
+    </div>
+    <h4>留言</h4> 
+    <div class="two">
+        <div> <a href="gbook_del.php">删</a></div>
+    </div>
+</body>
+</html>
